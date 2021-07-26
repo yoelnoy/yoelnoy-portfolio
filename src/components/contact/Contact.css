@@ -1,0 +1,35 @@
+.contact__container{
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: -webkit-linear-gradient(
+0deg
+, rgba(110,101,255,1) 0%, rgba(0,212,255,1) 79%);
+/* transform: skewY(-11deg); */
+}
+
+.contact__title{
+  /* transform: skewY(11deg); */
+  color: white;
+  font-size: 3rem;
+  margin-top: -4%;
+}
+
+.contact__text{
+  /* transform: skewY(11deg); */
+  color: white;
+  font-size: 2rem;
+}
+
+.contact__text a{
+  text-decoration: none;
+  color: white;
+  transition: all 0.3s ease-in;
+}
+
+.contact__text a:hover{
+  /* text-decoration: white; */
+  color: black;
+}

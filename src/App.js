@@ -1,23 +1,26 @@
-import logo from './logo.svg';
+import React, { useState, useEffect } from 'react'
 import './App.css';
+import Hero from './components/hero/Hero'
+import About from './components/about/About'
+import Projects from './components/projects/Projects'
+import Contact from './components/contact/Contact'
+import Footer from './components/footer/Footer'
 
 function App() {
+
+  const [aboutScroll, setAbouScroll] = useState(false);
+  const [fotterScroll, setFooterScroll] = useState(false);
+  const [language, setLanguage] = useState("EN")
+
+  
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Hero aboutScroll={aboutScroll} setAbouScroll={setAbouScroll} language={language} setLanguage={setLanguage} fotterScroll={fotterScroll} setFooterScroll={setFooterScroll} />
+      <About aboutScroll={aboutScroll} setAbouScroll={setAbouScroll} language={language} />
+      <Projects language={language} />
+      <Contact language={language}/>
+      <Footer fotterScroll={fotterScroll} setFooterScroll={setFooterScroll}/>
     </div>
   );
 }
