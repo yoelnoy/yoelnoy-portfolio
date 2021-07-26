@@ -20,16 +20,17 @@
   padding: 0.5% 0% 0.5% 0%;
   width: fit-content;
   animation: fadeIn1 0.8s ease-in;
+  margin-bottom: 3%;
 }
 
 .hero__text-en{
-  font-size: 4.5rem;
+  font-size: 3.5rem;
   font-weight: 700;
   margin: 0px;
   animation: fadeIn1 0.8s ease-in;
 }
 .hero__text-es{
-  font-size: 4.5rem;
+  font-size: 3.5rem;
   font-weight: 700;
   margin: 0px;
   animation: fadeInes 0.8s ease-in;

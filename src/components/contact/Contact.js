@@ -4,7 +4,7 @@ import './Contact.css'
 export default function Contact({ language }) {
   return (
     <div className="contact__container">
-      <h1 className="contact__title">{language === "EN" ? "CONTACT" : "CONTACTO"}</h1>
+      <h2 className="contact__title">{language === "EN" ? "CONTACT" : "CONTACTO"}</h2>
       <h3 className="contact__text"> 
         <div>
           <span>{language === "EN" ? "Reach me at " : "Llámame "} +34 697 744 089 | </span>

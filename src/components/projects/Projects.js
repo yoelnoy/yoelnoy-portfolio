@@ -5,7 +5,7 @@ import text from '../../media/text'
 export default function Projects({language}) {
   return (
     <div className="projects__container">
-      <h1 className="projects__title">{language === "EN" ? "PROJECTS" : "POYECTOS"}</h1>
+      <h2 className="projects__title">{language === "EN" ? "PROJECTS" : "POYECTOS"}</h2>
       <div className="projects__bottom">
         <div className="projects__left">
           {/* title */}
