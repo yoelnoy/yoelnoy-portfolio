@@ -1,4 +1,6 @@
 .about__container{
+  animation: about-fadeIn 1.5s ease-in;
+  transform: skewY(-11deg);
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -7,7 +9,12 @@
   background-image: -webkit-linear-gradient(
 0deg
 , rgba(110,101,255,1) 0%, rgba(0,212,255,1) 79%);
-transform: skewY(-11deg);
+
+}
+
+@keyframes about-fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
 }
 
 .about__header{
