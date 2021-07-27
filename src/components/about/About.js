@@ -2,6 +2,7 @@ import React, { useState, useEffect, useRef } from 'react'
 import './About.css'
 import text from '../../media/text'
 import cv from '../../media/cv.pdf'
+import imgYoel from '../../media/yoelnoy.jpg'
 
 export default function About({ aboutScroll, setAbouScroll, language}) {
 
@@ -25,7 +26,7 @@ export default function About({ aboutScroll, setAbouScroll, language}) {
         </div>
         <div className="about__lower-container">
           <div className="about__left">
-            <div className="about__left-image"></div>
+            <img src={imgYoel} alt="yoelnoy" className="about__left-image" />
           </div>
           <div className="about__right">
             {language === "EN" ? text.englishText : text.spanishhText}

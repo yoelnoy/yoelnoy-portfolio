@@ -27,8 +27,8 @@ const projectEnglish= (
 
 const projectSpanish= (
   <div className="projects__text">
-    <p>Live chat application allows to send instant live messages between users.</p>
-    <p>This project was develpoed with React.js on the front end and Node.js on the back end. Using Socket.io, i was able to creat realtime, bi-directional communication between web clients and servers.</p>
+    <p>La aplicación de chat en vivo permite enviar mensajes instantáneos en vivo entre usuarios.</p>
+    <p>Este proyecto se desarrolló con React.js en el front-end y Node.js en el back-end. Con Socket.io, pude crear comunicación bidireccional en tiempo real entre clientes web y servidores.</p>
   </div>
 )
 

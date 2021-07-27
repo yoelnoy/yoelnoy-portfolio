@@ -5,6 +5,7 @@ import About from './components/about/About'
 import Projects from './components/projects/Projects'
 import Contact from './components/contact/Contact'
 import Footer from './components/footer/Footer'
+import Test from './components/test/Test'
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
 
   return (
     <div className="App">
+      {/* <Test /> */}
       <Hero aboutScroll={aboutScroll} setAbouScroll={setAbouScroll} language={language} setLanguage={setLanguage} fotterScroll={fotterScroll} setFooterScroll={setFooterScroll} />
       <About aboutScroll={aboutScroll} setAbouScroll={setAbouScroll} language={language} />
       <Projects language={language} />

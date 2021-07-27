@@ -44,21 +44,19 @@ export default function Ones({ setAbouScroll, language, setLanguage, fotterScrol
         {language === "EN"? 
           <h1 className="hero__text-en">
           Hi, my name is
-          <span className="content__span">Yoel Noy</span>
+          <span className="content__span">Yoel Noy.</span>
           <br />
-          A React.js frontend developer
+          A React.js frontend developer.
         </h1> :
         <h1 className="hero__text-es">
           Hola, soy
-          <span className="content__span">Yoel Noy</span>
+          <span className="content__span">Yoel Noy.</span>
           <br />
-          Desarrollador frontend - React.js
+          Desarrollador frontend - React.js.
         </h1>}
 
         <button 
-          onClick={scrollToAbout} 
-          className="content__button"
-          style={{ fontSize: "2rem"}}>
+          onClick={scrollToAbout} className="content__button">
           {language === "EN" ? "Know more" : "Saber mas"}
         </button>
       </div>

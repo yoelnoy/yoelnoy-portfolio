@@ -1,0 +1,20 @@
+/* .container{
+  background-color: red;
+} */
+
+/* Tablet */
+/* @media only screen and (min-width:  780px) {
+  .container{
+    background-color: blue;
+  }
+} */
+
+/* Desktop */
+/* @media only screen and (min-width: 1200px) {
+  .container{
+    background-color: yellow;
+  }
+} */
+
+/* @media only screen and (min-width:  780px) */
+/* @media only screen and (min-width: 1200px) */
