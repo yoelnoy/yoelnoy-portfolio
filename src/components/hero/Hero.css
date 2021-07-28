@@ -49,28 +49,21 @@
 
 .content__span{
   margin-left: 1rem;
-  background: rgb(110,101,255);
   background-image: -webkit-linear-gradient(0deg, rgba(110,101,255,1) 0%, rgba(0,212,255,1) 79%);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: transparent; 
 }
 
 .content__button{
   margin-top: 10% !important;
   opacity: 0;
-  font-size: 2rem;
+  font-size: 1.5rem;
   animation: fadeIn 0.8s ease-in forwards;
   animation-delay: 0.8s ;
-  border: solid 2.5px !important;
   border-image: linear-gradient( to right, #0066ff, rgb(98 226 255) ) 20 34% !important;
-  -webkit-background-clip: text !important;
-  -webkit-background-clip: text !important;
-  background-image: -webkit-linear-gradient(0deg, rgba(110,101,255,1) 0%, rgba(0,212,255,1) 79%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
   padding: 1%;
   transition: all 0.3s ease;
-
+  background-color: white;
 }
 
 .content__button:hover{
@@ -79,7 +72,7 @@
 
 @keyframes fadeIn {
   0% {opacity:0; transform: translateX(-30px);}
-  100% {opacity:1; transform: translateX(0);}
+  100% {opacity:1; transform: translateX(0px);}
 }
 
  /* ///////////////////////////////////////////// 780 ////////////////////////////////// */
@@ -143,17 +136,12 @@
   
   .content__button{
     margin-top: 10% !important;
-    font-size: 3rem;
+    font-size: 1.5rem;    
     opacity: 0;
     animation: fadeIn 0.8s ease-in forwards;
     animation-delay: 0.8s ;
     border: solid 2.5px !important;
     border-image: linear-gradient( to right, #0066ff, rgb(98 226 255) ) 20 34% !important;
-    -webkit-background-clip: text !important;
-    -webkit-background-clip: text !important;
-    background-image: -webkit-linear-gradient(0deg, rgba(110,101,255,1) 0%, rgba(0,212,255,1) 79%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
     padding: 1%;
     transition: all 0.3s ease;
   }
@@ -166,6 +154,23 @@
     0% {opacity:0; transform: translateX(-30px);}
     100% {opacity:1; transform: translateX(0);}
   }
+}
+
+/* ///////////////////////////////////////////// 1024 ////////////////////////////////// */
+  
+@media only screen and (min-width:  1024px){
+  .content__button{
+    margin-top: 10% !important;
+    font-size: 2rem;    
+    opacity: 0;
+    animation: fadeIn 0.8s ease-in forwards;
+    animation-delay: 0.8s ;
+    border: solid 2.5px !important;
+    border-image: linear-gradient( to right, #0066ff, rgb(98 226 255) ) 20 34% !important;
+    padding: 1%;
+    transition: all 0.3s ease;
+  }
+  
 }
 
 /* ///////////////////////////////////////////// 1200 ////////////////////////////////// */
@@ -227,21 +232,14 @@
   }
   
   .content__button{
-    margin-top: 4% !important;
-    opacity: 0;
-    font-size: 2rem;
+    margin-top: 3rem !important;
+    font-size: 1.5rem;
     animation: fadeIn 0.8s ease-in forwards;
     animation-delay: 0.8s ;
-    border: solid 2.5px !important;
     border-image: linear-gradient( to right, #0066ff, rgb(98 226 255) ) 20 34% !important;
-    -webkit-background-clip: text !important;
-    -webkit-background-clip: text !important;
-    background-image: -webkit-linear-gradient(0deg, rgba(110,101,255,1) 0%, rgba(0,212,255,1) 79%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
     padding: 1%;
     transition: all 0.3s ease;
-  
+    background-color: white;
   }
   
   .content__button:hover{
