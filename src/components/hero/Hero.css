@@ -61,7 +61,7 @@
   animation: fadeIn 0.8s ease-in forwards;
   animation-delay: 0.8s ;
   border-image: linear-gradient( to right, #0066ff, rgb(98 226 255) ) 20 34% !important;
-  padding: 1%;
+  padding: 0.5rem;
   transition: all 0.3s ease;
   background-color: white;
 }
@@ -76,7 +76,7 @@
 }
 
  /* ///////////////////////////////////////////// 780 ////////////////////////////////// */
-@media only screen and (min-width:  780px){
+@media only screen and (min-width:  768px){
   .container{
     height: 100vh;
     display: flex;
@@ -142,7 +142,7 @@
     animation-delay: 0.8s ;
     border: solid 2.5px !important;
     border-image: linear-gradient( to right, #0066ff, rgb(98 226 255) ) 20 34% !important;
-    padding: 1%;
+    padding: 1rem;
     transition: all 0.3s ease;
   }
   
@@ -167,7 +167,7 @@
     animation-delay: 0.8s ;
     border: solid 2.5px !important;
     border-image: linear-gradient( to right, #0066ff, rgb(98 226 255) ) 20 34% !important;
-    padding: 1%;
+    padding: 2%;
     transition: all 0.3s ease;
   }
   
