@@ -1,7 +1,7 @@
 import React from 'react'
 import './Projects.css'
 import projects from '../../media/projectsInfo'
-import img1 from '../../media/live-chat-photo.jpg'
+import img1 from '../../media/live-stream.jpg'
 
 console.log(img1);
 
