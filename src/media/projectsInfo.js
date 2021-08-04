@@ -1,3 +1,5 @@
+import liveChatImage from './live-chat-photo.jpg';
+import liveCStreamImage from './live-stream.jpg';
 
 const projects = [
   {
@@ -17,7 +19,7 @@ const projects = [
       ),
       app: "https://youthful-spence-664ce8.netlify.app/",
       github: "https://github.com/yoelnoy/reactjs-live-chat",
-      img: "/static/media/live-chat-photo.880c828b.jpg"
+      img: liveChatImage
       
     },
     {
@@ -37,7 +39,7 @@ const projects = [
       ),
       app: "https://live-stream-app-52dba.web.app/",
       github: "https://github.com/yoelnoy/reactjs-live-stream",
-      img: "/static/media/live-stream.ebbe1244.jpg"
+      img: liveCStreamImage
   }
 ]
 

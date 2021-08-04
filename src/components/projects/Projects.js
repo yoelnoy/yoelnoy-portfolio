@@ -1,9 +1,6 @@
 import React from 'react'
 import './Projects.css'
 import projects from '../../media/projectsInfo'
-import img1 from '../../media/live-stream.jpg'
-
-console.log(img1);
 
 
 export default function Projects({language}) {
@@ -27,7 +24,9 @@ export default function Projects({language}) {
           <div className="projects1__right">
             <div className="projects1__right-inner">
               <a href={p.app} target="_blank" rel="noreferrer">
-                <img className="projects1__right-image" src={p.img} alt="" />
+                <div>
+                  <img className="projects1__right-image" src={p.img} alt="" />
+                </div>
               </a>
             </div>
           </div>
