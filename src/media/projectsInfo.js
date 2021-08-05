@@ -28,13 +28,13 @@ const projects = [
       descriptionEnglish: (
         <div className="projects__text">
           <p>Live Stream mimics our favorite video streaming platform and it's UI.</p>
-          <p>This project was develpoed with React.js on the front end, incorporating Redux, React Router, Axios and Firebase authentication.</p>
+          <p>This project was develpoed with React.js on the front end, incorporating Stripe Payments, Redux, React Router, Axios and Firebase authentication.</p>
         </div>
       ),
       descriptionSpanish: (
         <div className="projects__text">
           <p>Live Stream imita nuestro plataforma favorito de streaming y su Interfaz.</p>
-          <p>Este proyecto se desarrolló con React.js incorporando Redux, React Router, Axios y autenticación de Firebase.</p>
+          <p>Este proyecto se desarrolló con React.js incorporando Stripe Payments, Redux, React Router, Axios y autenticación de Firebase.</p>
         </div>
       ),
       app: "https://live-stream-app-52dba.web.app/",
