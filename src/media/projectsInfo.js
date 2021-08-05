@@ -1,5 +1,6 @@
 import liveChatImage from './live-chat-photo.jpg';
 import liveCStreamImage from './live-stream.jpg';
+import ecommercex from './ecommercex.jpg';
 
 const projects = [
   {
@@ -40,6 +41,25 @@ const projects = [
       app: "https://live-stream-app-52dba.web.app/",
       github: "https://github.com/yoelnoy/reactjs-live-stream",
       img: liveCStreamImage
+    },
+    {
+    // liveStream: {
+      title: "Ecommerce-x",
+      descriptionEnglish: (
+        <div className="projects__text">
+          <p>ECOMMERCE-X is a E-commerce platform for listing, selling and purchasing products.</p>
+          <p>This project was develpoed with React.js, MaterialUi, incorporating Stripe Payments, React Router and Commerce.js.</p>
+        </div>
+      ),
+      descriptionSpanish: (
+        <div className="projects__text">
+          <p>ECOMMERCE-X es un plataforma para publicar, vender y comprar productos.</p>
+          <p>Este proyecto se desarrolló con React.js, MaterialUi, incorporando Stripe Payments, React Router y Commerce.js.</p>
+        </div>
+      ),
+      app: "https://confident-johnson-3cce90.netlify.app/",
+      github: "https://github.com/yoelnoy/ecommerce-app",
+      img: ecommercex
   }
 ]
 
